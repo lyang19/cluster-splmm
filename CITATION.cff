@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Mixture Simultaneously Penalized Linear
+  Mixed-effects Models for High-dimensional
+  Longitudinal Data Clustering
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Luoying
+    family-names: Yang
+    email: lyang19@u.rochester.edu
+    affiliation: University of Rochester
+    orcid: 'https://orcid.org/0000-0003-1653-8350'
