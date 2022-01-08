@@ -1,7 +1,7 @@
 rm(list=ls())
 
 library(mvtnorm)
-source("mixturesplmm-longclust.R")
+source("mixturesplmm.R")
 library(penalized)
 library(emulator)
 library(miscTools)
