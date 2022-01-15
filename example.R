@@ -98,7 +98,7 @@ pii + geom_line()
 
 ## fit mixture-splmm
 set.seed(i)
-fit <- mixturesplmm(x=data1$x,y=data1$y,z=data1$z,grp=data1$grp,time=data1$time, lam1=c(0.15,0.1),lam2=0.8,nCluster=2,penalty.b="scad", penalty.L="lasso")
+fit <- mixturesplmm(x=data1$x,y=data1$y,z=data1$z,grp=data1$grp,time=data1$time, lam1=c(0.15,0.1),lam2=0.5,nCluster=2,penalty.b="scad", penalty.L="lasso")
 
 ## estimated fixed-effects coefficients
 fit$coefficients
