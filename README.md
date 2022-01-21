@@ -38,6 +38,6 @@ longclust
 
 MASS
 
-To run the example, please have the required packages installed, and download all code scripts under the same folder. 
+To run the example, please have the required packages installed, and download the "data1.RData" and "example.R" files under the same folder. 
 
 [1] Yang, Luoying. Model-Based Clustering of Longitudinal Data in High Dimensions. Diss. University of Rochester, 2021.
