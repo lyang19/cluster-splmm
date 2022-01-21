@@ -8,29 +8,35 @@ code/splmm_rcpp.cpp: The cpp file contains several functions written using Rcpp 
 
 code/helpers.R: The R scirpt contains functions that used in the main function mixturesplmm.
 
-code/splmmControl: The Rscirpt defines various kinds of parameters used in the main function mixturesplmm.
+code/splmmControl.R: The Rscirpt defines various kinds of parameters used in the main function mixturesplmm.
 
-example.R: The R script simulates a simple dataset to demonstrate the usage of the implemented algorithm. See the script for details. Executing the example requires the following R packages:
+code/data.R: The Rscript contains a function that can generate a 2-cluster data, each cluster has 3 true fixed effects and 2 true random effects. See script for more details. Executing this file requires the following R packages:
 
-library(mvtnorm)
+mvtnorm
 
-library(penalized)
+ggplot2
 
-library(emulator)
 
-library(miscTools)
 
-library(Rcpp)
+data1.RData: A 2-cluster data generated from data.R. See data.R for more details.
 
-library(tidyverse)
+example.R: The R script demonstrates the usage of the implemented algorithm using the simulated data data1.RData. See the script for details. Executing the example requires the following R packages:
 
-library(glmnet)
+penalized
 
-library(ggplot2)
+emulator
 
-library(longclust)
+miscTools
 
-library(MASS)
+Rcpp
+
+tidyverse
+
+glmnet
+
+longclust
+
+MASS
 
 To run the example, please have the required packages installed, and download all code scripts under the same folder. 
 
