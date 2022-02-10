@@ -1,6 +1,6 @@
 rm(list=ls())
 
-source("mixturesplmm.R")
+source("clustersplmm.R")
 library(penalized)
 library(emulator)
 library(miscTools)
@@ -15,9 +15,10 @@ source("splmmControl.R")
 sourceCpp("splmm_rcpp.cpp")
 load("data1.RData")
 
-## fit mixture-splmm
+## fit cluster-splmm
+i=1609
 set.seed(i)
-fit <- mixturesplmm(x=data1$x,y=data1$y,z=data1$z,grp=data1$grp,time=data1$time, lam1=c(0.15,0.1),lam2=0.5,nCluster=2,penalty.b="scad", penalty.L="lasso")
+fit <- clustersplmm(x=data1$x,y=data1$y,z=data1$z,grp=data1$grp,time=data1$time, lam1=c(0.15,0.1),lam2=0.5,nCluster=2,penalty.b="scad", penalty.L="lasso")
 
 ## estimated fixed-effects coefficients
 fit$coefficients
