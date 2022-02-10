@@ -38,6 +38,6 @@ longclust
 
 MASS
 
-To run the example, please have the required packages installed, and download the "data1.RData", "example.R" and all files in the "code" folder under the same folder. 
+In addition, because the function contains C++ chunks, Rtools is required for the function to run in Windows/Mac environment. To run the example, please have the required packages installed, and download the "data1.RData", "example.R" and all files in the "code" folder under the same folder. 
 
 [1] Yang, Luoying. Model-Based Clustering of Longitudinal Data in High Dimensions. Diss. University of Rochester, 2021.
