@@ -1,10 +1,10 @@
-# mixture-splmm
+# cluster-splmm
 
-This repository contains the implemented algorithm of a model-based clustering method for longitudinal data, mixture-splmm[1]. The names and descriptions are shown below:
+This repository contains the implemented algorithm of a model-based clustering method for longitudinal data, cluster-splmm[1]. The names and descriptions are shown below:
 
-code/mixturesplmm.R: The R script contains the main function "mixturesplmm" for model fitting. For function usage please see example.R.
+code/clustersplmm.R: The R script contains the main function "mixturesplmm" for model fitting. For function usage please see example.R.
 
-code/splmm_rcpp.cpp: The cpp file contains several functions written using Rcpp that used in the main function mixturesplmm.
+code/splmm_rcpp.cpp: The cpp file contains several functions written using Rcpp that used in the main function clustersplmm.
 
 code/helpers.R: The R scirpt contains functions that used in the main function mixturesplmm.
 
@@ -38,6 +38,6 @@ longclust
 
 MASS
 
-To run the example, please have the required packages installed, and download the "data1.RData" and "example.R" files under the same folder. 
+To run the example, please have the required packages installed, and download the "data1.RData", "example.R" and all files in the "code" folder under the same folder. 
 
 [1] Yang, Luoying. Model-Based Clustering of Longitudinal Data in High Dimensions. Diss. University of Rochester, 2021.
